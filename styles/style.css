@@ -25,18 +25,31 @@ header img {
     box-shadow: 5px 10px;
 }
 
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 nav ul li {
     list-style: none;
     text-decoration: none;
     background-color: beige;
+    width: 80px;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     border-radius: 10px;
+
 }
 
 nav ul li a {
     text-decoration: none;
+
 }
 
 main {
@@ -69,9 +82,10 @@ main p {
 
 .Frases p {
     font-style: italic;
-    background-color: beige;
-   padding: 10px; 
-   margin: 10px;
+    background-color: rgba(245, 245, 220, 0.212);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 
 }
 
@@ -99,17 +113,20 @@ main p {
 .grid-item p {
     font-size: 12px;
 }
+
 footer {
     display: flex;
     justify-content: space-between;
     color: beige;
     padding: 10px;
 }
+
 footer ul li {
     padding: 10px;
     list-style: none;
-   
+
 }
+
 footer div ul li {
     color: black;
 }
