@@ -36,6 +36,7 @@ nav ul {
 }
 
 nav ul li {
+    
     list-style: none;
     text-decoration: none;
     background-color: beige;
@@ -49,6 +50,10 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(241, 190, 209); 
 
 }
 
